@@ -10,6 +10,7 @@
 // modifications are permitted.
 
 using Neo.VM.Types;
+using System.Text;
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -121,6 +122,22 @@ public class ExecutionEngine : IDisposable
     /// Start execution of the VM.
     /// </summary>
     /// <returns></returns>
+    public virtual (VMState, List<string>) ExecuteWithRC(bool debug)
+    {
+        var res = new List<string>();
+        if (State == VMState.BREAK)
+            State = VMState.NONE;
+        while (State != VMState.HALT && State != VMState.FAULT)
+        {
+            ExecutionContext context = CurrentContext!;
+            Instruction? currentInstruction = context.CurrentInstruction;
+            Instruction instruction = currentInstruction ?? Instruction.RET;
+            ExecuteNext();
+            res.Add($"[{instruction.OpCode} {Convert.ToHexString(instruction.Operand.ToArray())} {ReferenceCounter.Count}] ");
+        }
+        return (State, res);
+    }
+
     public virtual VMState Execute()
     {
         if (State == VMState.BREAK)
