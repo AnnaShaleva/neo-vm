@@ -76,7 +76,10 @@
                 ]
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "length": 2
+            }
           }
         },
         {
@@ -105,7 +108,10 @@
                 ]
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "length": 2
+            }
           }
         },
         {

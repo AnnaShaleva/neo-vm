@@ -280,7 +280,10 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         },
         {
@@ -342,7 +345,10 @@
                 ]
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         },
         {
@@ -539,7 +545,10 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -643,7 +652,10 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -759,7 +771,10 @@
                 ]
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -846,7 +861,10 @@
                 ]
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -1017,7 +1035,10 @@
                 ]
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -1104,7 +1125,10 @@
                 ]
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -1255,7 +1279,8 @@
     {
       "name": "Caught out-of-bounds [Buffer]",
       "script": [
-        "TRY", "0x0900",
+        "TRY",
+        "0x0900",
         "PUSH0",
         "NEWBUFFER",
         "PUSH1",

@@ -9,6 +9,8 @@
 // Redistribution and use in source and binary forms with or without
 // modifications are permitted.
 
+#nullable enable
+
 using Neo.VM;
 using Neo.VM.Types;
 using System;
@@ -17,7 +19,8 @@ namespace Neo.Test.Types;
 
 public class TestEngine : ExecutionEngine
 {
-    public Exception FaultException { get; private set; }
+    public Exception? FaultException { get; private set; }
+    public RunStats? LastRunStats { get; private set; }
 
     public TestEngine() : base(ComposeJumpTable()) { }
 
@@ -27,6 +30,23 @@ public class TestEngine : ExecutionEngine
     {
         var jumpTable = new JumpTable();
         jumpTable[OpCode.SYSCALL] = OnSysCall;
+        for (var value = 0; value < byte.MaxValue; value++)
+        {
+            var opCode = (OpCode)value;
+            var action = jumpTable[opCode];
+            jumpTable[opCode] = (ExecutionEngine engine, Instruction instruction, ref RunStats runStats) =>
+            {
+                try
+                {
+                    action(engine, instruction, ref runStats);
+                }
+                finally
+                {
+                    if (engine is TestEngine testEngine)
+                        testEngine.LastRunStats = runStats;
+                }
+            };
+        }
         return jumpTable;
     }
 
@@ -36,7 +56,7 @@ public class TestEngine : ExecutionEngine
 
         if (method == 0x77777777)
         {
-            engine.CurrentContext.EvaluationStack.Push(StackItem.FromInterface(new object()));
+            engine.CurrentContext!.EvaluationStack.Push(StackItem.FromInterface(new object()));
             return;
         }
 

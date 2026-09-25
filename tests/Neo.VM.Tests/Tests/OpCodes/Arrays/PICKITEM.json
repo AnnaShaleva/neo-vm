@@ -328,7 +328,10 @@
                 ]
               }
             ],
-            "refs": 5
+            "refs": 5,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -484,7 +487,10 @@
                 ]
               }
             ],
-            "refs": 5
+            "refs": 5,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -650,7 +656,10 @@
                 ]
               }
             ],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {

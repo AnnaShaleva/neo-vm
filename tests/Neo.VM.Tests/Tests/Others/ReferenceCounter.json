@@ -57,7 +57,10 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         }
       ]
@@ -100,7 +103,10 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -123,7 +129,11 @@
                 "value": []
               }
             ],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "type": "array",
+              "refsDelta": 3
+            }
           }
         }
       ]
@@ -277,7 +287,10 @@
                 "nextInstruction": "DROP"
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -293,7 +306,10 @@
               }
             ],
             "evaluationStack": [],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         }
       ]
@@ -335,7 +351,10 @@
                 "nextInstruction": "DROP"
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -351,7 +370,10 @@
               }
             ],
             "evaluationStack": [],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         }
       ]
@@ -511,15 +533,15 @@
             "state": "HALT",
             "invocationStack": [],
             "evaluationStack": [
-               {
-                  "type": "Array",
-                  "value": [
-                    {
-                      "type": "Array",
-                      "value": []
-                    }
-                  ]
-               }
+              {
+                "type": "Array",
+                "value": [
+                  {
+                    "type": "Array",
+                    "value": []
+                  }
+                ]
+              }
             ],
             "refs": 2
           }
@@ -593,24 +615,26 @@
                 "nextInstruction": "DROP"
               }
             ],
-             "evaluationStack": [
-                  {
-                    "type": "Map",
-                    "value": {
-                      "0x01":
+            "evaluationStack": [
+              {
+                "type": "Map",
+                "value": {
+                  "0x01": {
+                    "type": "Array",
+                    "value": [
                       {
-                        "type": "Array",
-                        "value": [
-                          {
-                            "type": "Integer",
-                            "value": 1
-                          }
-                        ]
+                        "type": "Integer",
+                        "value": 1
                       }
-                    }
+                    ]
                   }
-                ],
-            "refs": 4
+                }
+              }
+            ],
+            "refs": 4,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -625,8 +649,11 @@
                 "nextInstruction": "RET"
               }
             ],
-             "evaluationStack": [],
-            "refs": 0
+            "evaluationStack": [],
+            "refs": 0,
+            "runStats": {
+              "refsDelta": 4
+            }
           }
         }
       ]
@@ -670,27 +697,31 @@
                 "nextInstruction": "DROP"
               }
             ],
-             "evaluationStack": [
+            "evaluationStack": [
+              {
+                "type": "Struct",
+                "value": [
                   {
                     "type": "Struct",
                     "value": [
                       {
-                        "type": "Struct",
-                        "value": [
-                          {
-                            "type": "Integer",
-                            "value": 1
-                          },
-                          {
-                            "type": "Integer",
-                            "value": 2
-                          }
-                        ]
+                        "type": "Integer",
+                        "value": 1
+                      },
+                      {
+                        "type": "Integer",
+                        "value": 2
                       }
                     ]
                   }
-                ],
-            "refs": 4
+                ]
+              }
+            ],
+            "refs": 4,
+            "runStats": {
+              "refsDelta": 7,
+              "nClonedItems": 3
+            }
           }
         },
         {
@@ -705,8 +736,11 @@
                 "nextInstruction": "RET"
               }
             ],
-             "evaluationStack": [],
-            "refs": 0
+            "evaluationStack": [],
+            "refs": 0,
+            "runStats": {
+              "refsDelta": 4
+            }
           }
         }
       ]
@@ -744,7 +778,10 @@
                 "nextInstruction": "DROP"
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -759,8 +796,11 @@
                 "nextInstruction": "RET"
               }
             ],
-             "evaluationStack": [],
-            "refs": 2
+            "evaluationStack": [],
+            "refs": 2,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         }
       ]
@@ -801,7 +841,10 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -817,7 +860,10 @@
               }
             ],
             "evaluationStack": [],
-            "refs": 0
+            "refs": 0,
+            "runStats": {
+              "refsDelta": 2
+            }
           }
         }
       ]
@@ -869,7 +915,10 @@
                 ]
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -885,7 +934,10 @@
               }
             ],
             "evaluationStack": [],
-            "refs": 0
+            "refs": 0,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         }
       ]
@@ -956,7 +1008,10 @@
                 "value": []
               }
             ],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "refsDelta": 2
+            }
           }
         },
         {
@@ -972,7 +1027,10 @@
               }
             ],
             "evaluationStack": [],
-            "refs": 0
+            "refs": 0,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         }
       ]
@@ -1062,7 +1120,10 @@
                 "value": []
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         }
       ]
@@ -1130,7 +1191,10 @@
                 ]
               }
             ],
-            "refs": 4
+            "refs": 4,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -1162,7 +1226,11 @@
                 "value": []
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "type": "array",
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -1190,7 +1258,11 @@
                 "value": []
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "type": "array",
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -1211,7 +1283,10 @@
                 "value": []
               }
             ],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         },
         {
@@ -1227,7 +1302,10 @@
               }
             ],
             "evaluationStack": [],
-            "refs": 0
+            "refs": 0,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         }
       ]
@@ -1284,7 +1362,10 @@
                 ]
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -1312,7 +1393,12 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "type": "array",
+              "length": 1,
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -1335,7 +1421,11 @@
                 "value": []
               }
             ],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "type": "array",
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -1351,7 +1441,10 @@
               }
             ],
             "evaluationStack": [],
-            "refs": 0
+            "refs": 0,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         }
       ]
@@ -1399,7 +1492,10 @@
                 }
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         },
         {
@@ -1422,7 +1518,11 @@
                 "value": {}
               }
             ],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "type": "map",
+              "refsDelta": 4
+            }
           }
         },
         {
@@ -1438,7 +1538,10 @@
               }
             ],
             "evaluationStack": [],
-            "refs": 0
+            "refs": 0,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         }
       ]
@@ -1487,7 +1590,10 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -1516,7 +1622,10 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -1532,7 +1641,10 @@
               }
             ],
             "evaluationStack": [],
-            "refs": 0
+            "refs": 0,
+            "runStats": {
+              "refsDelta": 2
+            }
           }
         }
       ]
@@ -1595,7 +1707,10 @@
                 ]
               }
             ],
-            "refs": 4
+            "refs": 4,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -1627,7 +1742,12 @@
                 ]
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "type": "array",
+              "length": 1,
+              "refsDelta": 3
+            }
           }
         }
       ]
@@ -1729,7 +1849,10 @@
                 ]
               }
             ],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "refsDelta": 4
+            }
           }
         },
         {
@@ -1745,7 +1868,10 @@
               }
             ],
             "resultStack": [],
-            "refs": 0
+            "refs": 0,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         }
       ]
@@ -1789,15 +1915,12 @@
                 "evaluationStack": [
                   {
                     "type": "Map",
-                    "value":
-                    {
-                      "0x01":
-                      {
+                    "value": {
+                      "0x01": {
                         "type": "Boolean",
                         "value": true
                       },
-                      "0x02" :
-                      {
+                      "0x02": {
                         "type": "Boolean",
                         "value": true
                       }
@@ -1805,15 +1928,12 @@
                   },
                   {
                     "type": "Map",
-                    "value":
-                    {
-                      "0x01":
-                      {
+                    "value": {
+                      "0x01": {
                         "type": "Boolean",
                         "value": true
                       },
-                      "0x02" :
-                      {
+                      "0x02": {
                         "type": "Boolean",
                         "value": true
                       }
@@ -1843,7 +1963,10 @@
                 ]
               }
             ],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "refsDelta": 5
+            }
           }
         },
         {
@@ -1860,7 +1983,10 @@
               }
             ],
             "evaluationStack": [],
-            "refs": 0
+            "refs": 0,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         }
       ]
@@ -1895,10 +2021,8 @@
                 "evaluationStack": [
                   {
                     "type": "Map",
-                    "value":
-                    {
-                      "0x01":
-                      {
+                    "value": {
+                      "0x01": {
                         "type": "Boolean",
                         "value": true
                       }
@@ -1907,7 +2031,10 @@
                 ]
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         },
         {
@@ -1931,7 +2058,11 @@
               }
             ],
             "evaluationStack": [],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "type": "map",
+              "refsDelta": 4
+            }
           }
         }
       ]
@@ -1961,15 +2092,15 @@
                 "evaluationStack": [
                   {
                     "type": "Array",
-                    "value": [ ]
+                    "value": []
                   },
                   {
                     "type": "Array",
-                    "value": [ ]
+                    "value": []
                   },
                   {
                     "type": "Array",
-                    "value": [ ]
+                    "value": []
                   }
                 ]
               }
@@ -1989,7 +2120,10 @@
                 "nextInstruction": "CLEARITEMS"
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -2004,7 +2138,10 @@
                 "nextInstruction": "RET"
               }
             ],
-            "refs": 0
+            "refs": 0,
+            "runStats": {
+              "refsDelta": 2
+            }
           }
         }
       ]
@@ -2040,7 +2177,7 @@
                 "evaluationStack": [
                   {
                     "type": "Array",
-                    "value": [ 
+                    "value": [
                       {
                         "type": "Integer",
                         "value": 1
@@ -2049,7 +2186,7 @@
                   },
                   {
                     "type": "Array",
-                    "value": [ 
+                    "value": [
                       {
                         "type": "Integer",
                         "value": 1
@@ -2058,7 +2195,7 @@
                   },
                   {
                     "type": "Array",
-                    "value": [ 
+                    "value": [
                       {
                         "type": "Integer",
                         "value": 1
@@ -2083,7 +2220,10 @@
                 "nextInstruction": "CLEARITEMS"
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -2098,7 +2238,10 @@
                 "nextInstruction": "RET"
               }
             ],
-            "refs": 0
+            "refs": 0,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         }
       ]
@@ -2136,23 +2279,23 @@
                 "evaluationStack": [
                   {
                     "type": "Array",
-                    "value": [ 
+                    "value": [
                       {
                         "type": "Array",
-                        "value": [ ]
+                        "value": []
                       }
                     ]
                   },
                   {
                     "type": "Array",
-                    "value": [ ]
+                    "value": []
                   },
                   {
                     "type": "Array",
-                    "value": [ 
+                    "value": [
                       {
                         "type": "Array",
-                        "value": [ ]
+                        "value": []
                       }
                     ]
                   }
@@ -2175,7 +2318,10 @@
                 "nextInstruction": "RET"
               }
             ],
-            "refs": 0
+            "refs": 0,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         }
       ]
@@ -2209,7 +2355,7 @@
                 "evaluationStack": [
                   {
                     "type": "Map",
-                    "value": { }
+                    "value": {}
                   },
                   {
                     "type": "Integer",
@@ -2217,11 +2363,11 @@
                   },
                   {
                     "type": "Map",
-                    "value": { }
+                    "value": {}
                   },
                   {
                     "type": "Map",
-                    "value": { }
+                    "value": {}
                   }
                 ]
               }
@@ -2241,7 +2387,10 @@
                 "nextInstruction": "CLEARITEMS"
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         },
         {
@@ -2256,7 +2405,10 @@
                 "nextInstruction": "RET"
               }
             ],
-            "refs": 0
+            "refs": 0,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         }
       ]
@@ -2264,20 +2416,23 @@
     {
       "name": "RC must not be negative due to circular reference removal",
       "script": [
-       	"INITSLOT", "0x01", "0x00",
-       	"PUSH16",
-       	"STLOC0",
-       	"NEWARRAY0",
-       	"DUP",
-       	"DUP",
-       	"APPEND",
-       	"CLEARITEMS",
-       	"LDLOC0",
-       	"DEC",
-       	"DUP",
-       	"STLOC0",
-       	"PUSH0",
-       	"JMPGT", "0xf6"
+        "INITSLOT",
+        "0x01",
+        "0x00",
+        "PUSH16",
+        "STLOC0",
+        "NEWARRAY0",
+        "DUP",
+        "DUP",
+        "APPEND",
+        "CLEARITEMS",
+        "LDLOC0",
+        "DEC",
+        "DUP",
+        "STLOC0",
+        "PUSH0",
+        "JMPGT",
+        "0xf6"
       ],
       "steps": [
         {
@@ -2286,7 +2441,7 @@
           ],
           "result": {
             "state": "HALT",
-            "invocationStack": [ ],
+            "invocationStack": [],
             "refs": 0
           }
         }

@@ -80,7 +80,10 @@
                 ]
               }
             ],
-            "refs": 6
+            "refs": 6,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         },
         {
