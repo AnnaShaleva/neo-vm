@@ -9,6 +9,8 @@
 // Redistribution and use in source and binary forms with or without
 // modifications are permitted.
 
+#nullable enable
+
 using Neo.VM;
 using Neo.VM.Types;
 using System;
@@ -17,7 +19,7 @@ namespace Neo.Test.Types;
 
 public class TestEngine : ExecutionEngine
 {
-    public Exception FaultException { get; private set; }
+    public Exception? FaultException { get; private set; }
     public RunStats LastRunStats { get; private set; }
 
     public TestEngine() : base(ComposeJumpTable()) { }
@@ -37,7 +39,7 @@ public class TestEngine : ExecutionEngine
 
         if (method == 0x77777777)
         {
-            engine.CurrentContext.EvaluationStack.Push(StackItem.FromInterface(new object()));
+            engine.CurrentContext!.EvaluationStack.Push(StackItem.FromInterface(new object()));
             return;
         }
 
