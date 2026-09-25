@@ -14,13 +14,7 @@
             "execute"
           ],
           "result": {
-            "state": "FAULT",
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "state": "FAULT"
           }
         }
       ]
@@ -38,13 +32,7 @@
             "execute"
           ],
           "result": {
-            "state": "FAULT",
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "state": "FAULT"
           }
         }
       ]
@@ -62,13 +50,7 @@
             "execute"
           ],
           "result": {
-            "state": "FAULT",
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "state": "FAULT"
           }
         }
       ]
@@ -89,13 +71,7 @@
             "execute"
           ],
           "result": {
-            "state": "FAULT",
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "state": "FAULT"
           }
         }
       ]
@@ -170,13 +146,7 @@
                 ]
               }
             ],
-            "refs": 5,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 5
           }
         },
         {
@@ -206,8 +176,7 @@
             "runStats": {
               "type": "array",
               "length": 1,
-              "refsDelta": 3,
-              "nClonedItems": 0
+              "refsDelta": 3
             }
           }
         },
@@ -227,13 +196,7 @@
                 "value": 6
               }
             ],
-            "refs": 2,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 2
           }
         }
       ]
@@ -302,13 +265,7 @@
                 ]
               }
             ],
-            "refs": 4,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 4
           }
         },
         {
@@ -332,9 +289,7 @@
             "refs": 1,
             "runStats": {
               "type": "struct",
-              "length": 0,
-              "refsDelta": 3,
-              "nClonedItems": 0
+              "refsDelta": 3
             }
           }
         },
@@ -350,13 +305,7 @@
                 "value": 0
               }
             ],
-            "refs": 1,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 1
           }
         }
       ]

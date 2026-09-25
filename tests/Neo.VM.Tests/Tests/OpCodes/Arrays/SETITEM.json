@@ -39,13 +39,7 @@
                 ]
               }
             ],
-            "refs": 3,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 3
           }
         },
         {
@@ -53,13 +47,7 @@
             "stepInto"
           ],
           "result": {
-            "state": "FAULT",
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "state": "FAULT"
           }
         }
       ]
@@ -101,13 +89,7 @@
                 ]
               }
             ],
-            "refs": 3,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 3
           }
         },
         {
@@ -115,13 +97,7 @@
             "stepInto"
           ],
           "result": {
-            "state": "FAULT",
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "state": "FAULT"
           }
         }
       ]
@@ -137,13 +113,7 @@
             "stepInto"
           ],
           "result": {
-            "state": "FAULT",
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "state": "FAULT"
           }
         }
       ]
@@ -191,13 +161,7 @@
                 ]
               }
             ],
-            "refs": 4,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 4
           }
         },
         {
@@ -205,13 +169,7 @@
             "stepInto"
           ],
           "result": {
-            "state": "FAULT",
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "state": "FAULT"
           }
         }
       ]
@@ -259,13 +217,7 @@
                 ]
               }
             ],
-            "refs": 4,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 4
           }
         },
         {
@@ -273,13 +225,7 @@
             "stepInto"
           ],
           "result": {
-            "state": "FAULT",
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "state": "FAULT"
           }
         }
       ]
@@ -336,10 +282,7 @@
             ],
             "refs": 2,
             "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 1,
-              "nClonedItems": 0
+              "refsDelta": 1
             }
           }
         },
@@ -376,13 +319,7 @@
                 ]
               }
             ],
-            "refs": 4,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 4
           }
         },
         {
@@ -410,10 +347,7 @@
             ],
             "refs": 3,
             "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 1,
-              "nClonedItems": 0
+              "refsDelta": 1
             }
           }
         },
@@ -451,13 +385,7 @@
                 ]
               }
             ],
-            "refs": 4,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 4
           }
         },
         {
@@ -505,13 +433,7 @@
                 ]
               }
             ],
-            "refs": 6,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 6
           }
         },
         {
@@ -539,13 +461,7 @@
                 }
               }
             ],
-            "refs": 5,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 5
           }
         }
       ]
@@ -603,13 +519,7 @@
                 ]
               }
             ],
-            "refs": 5,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 5
           }
         },
         {
@@ -637,10 +547,7 @@
             ],
             "refs": 2,
             "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 3,
-              "nClonedItems": 0
+              "refsDelta": 3
             }
           }
         },
@@ -661,13 +568,7 @@
                 ]
               }
             ],
-            "refs": 2,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 2
           }
         }
       ]
@@ -725,13 +626,7 @@
                 ]
               }
             ],
-            "refs": 5,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 5
           }
         },
         {
@@ -759,10 +654,7 @@
             ],
             "refs": 2,
             "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 3,
-              "nClonedItems": 0
+              "refsDelta": 3
             }
           }
         },
@@ -783,13 +675,7 @@
                 ]
               }
             ],
-            "refs": 2,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 2
           }
         }
       ]
@@ -852,13 +738,7 @@
                 ]
               }
             ],
-            "refs": 4,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 4
           }
         },
         {
@@ -893,10 +773,7 @@
             ],
             "refs": 3,
             "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 3,
-              "nClonedItems": 0
+              "refsDelta": 3
             }
           }
         },
@@ -945,13 +822,7 @@
                 ]
               }
             ],
-            "refs": 4,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 4
           }
         },
         {
@@ -992,10 +863,7 @@
             ],
             "refs": 3,
             "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 3,
-              "nClonedItems": 0
+              "refsDelta": 3
             }
           }
         },
@@ -1042,13 +910,7 @@
                 ]
               }
             ],
-            "refs": 4,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 4
           }
         },
         {
@@ -1077,13 +939,7 @@
                 ]
               }
             ],
-            "refs": 3,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 3
           }
         }
       ]
@@ -1146,13 +1002,7 @@
                 ]
               }
             ],
-            "refs": 4,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 4
           }
         },
         {
@@ -1187,10 +1037,7 @@
             ],
             "refs": 3,
             "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 3,
-              "nClonedItems": 0
+              "refsDelta": 3
             }
           }
         },
@@ -1239,13 +1086,7 @@
                 ]
               }
             ],
-            "refs": 4,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 4
           }
         },
         {
@@ -1286,10 +1127,7 @@
             ],
             "refs": 3,
             "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 3,
-              "nClonedItems": 0
+              "refsDelta": 3
             }
           }
         },
@@ -1336,13 +1174,7 @@
                 ]
               }
             ],
-            "refs": 4,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 4
           }
         },
         {
@@ -1371,13 +1203,7 @@
                 ]
               }
             ],
-            "refs": 3,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 3
           }
         }
       ]
@@ -1430,13 +1256,7 @@
                 ]
               }
             ],
-            "refs": 4,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 4
           }
         },
         {
@@ -1451,13 +1271,7 @@
                 "value": "0x0502"
               }
             ],
-            "refs": 1,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 1
           }
         }
       ]
@@ -1506,13 +1320,7 @@
                 ]
               }
             ],
-            "refs": 3,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 3
           }
         },
         {
@@ -1521,13 +1329,7 @@
           ],
           "result": {
             "state": "HALT",
-            "refs": 0,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 0
           }
         }
       ]

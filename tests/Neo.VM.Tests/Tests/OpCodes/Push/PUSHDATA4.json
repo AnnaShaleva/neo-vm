@@ -14,13 +14,7 @@
             "execute"
           ],
           "result": {
-            "state": "FAULT",
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "state": "FAULT"
           }
         }
       ]
@@ -37,13 +31,7 @@
             "execute"
           ],
           "result": {
-            "state": "FAULT",
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "state": "FAULT"
           }
         }
       ]
@@ -68,13 +56,7 @@
                 "value": "0x01020304"
               }
             ],
-            "refs": 1,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 1
           }
         }
       ]
@@ -91,13 +73,7 @@
             "execute"
           ],
           "result": {
-            "state": "FAULT",
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "state": "FAULT"
           }
         }
       ]
@@ -115,13 +91,7 @@
             "execute"
           ],
           "result": {
-            "state": "FAULT",
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "state": "FAULT"
           }
         }
       ]

@@ -13,13 +13,7 @@
             "Execute"
           ],
           "result": {
-            "state": "FAULT",
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "state": "FAULT"
           }
         }
       ]
@@ -37,13 +31,7 @@
             "Execute"
           ],
           "result": {
-            "state": "FAULT",
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "state": "FAULT"
           }
         }
       ]
@@ -66,13 +54,7 @@
                 "type": "integer",
                 "value": 1
               }
-            ],
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            ]
           }
         }
       ]
@@ -120,13 +102,7 @@
                 ]
               }
             ],
-            "refs": 4,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 4
           }
         },
         {
@@ -149,13 +125,7 @@
                 "value": 1
               }
             ],
-            "refs": 3,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 3
           }
         }
       ]
@@ -203,13 +173,7 @@
                 ]
               }
             ],
-            "refs": 4,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 4
           }
         },
         {
@@ -232,13 +196,7 @@
                 "value": 3
               }
             ],
-            "refs": 3,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 3
           }
         }
       ]

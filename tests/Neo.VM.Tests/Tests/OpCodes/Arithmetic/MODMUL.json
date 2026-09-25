@@ -20,13 +20,7 @@
                 "nextInstruction": "MODMUL",
                 "evaluationStack": []
               }
-            ],
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            ]
           }
         }
       ]
@@ -68,13 +62,7 @@
                 ]
               }
             ],
-            "refs": 3,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 3
           }
         },
         {
@@ -90,13 +78,7 @@
                 "value": 1
               }
             ],
-            "refs": 1,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 1
           }
         }
       ]
@@ -138,13 +120,7 @@
                 ]
               }
             ],
-            "refs": 3,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 3
           }
         },
         {
@@ -160,13 +136,7 @@
                 "value": 0
               }
             ],
-            "refs": 1,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 1
           }
         }
       ]
@@ -210,13 +180,7 @@
                 ]
               }
             ],
-            "refs": 3,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 3
           }
         },
         {
@@ -232,13 +196,7 @@
                 "value": -2
               }
             ],
-            "refs": 1,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 1
           }
         }
       ]
@@ -282,13 +240,7 @@
                 ]
               }
             ],
-            "refs": 3,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 3
           }
         },
         {
@@ -304,13 +256,7 @@
                 "value": 2
               }
             ],
-            "refs": 1,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 1
           }
         }
       ]
@@ -356,13 +302,7 @@
                 ]
               }
             ],
-            "refs": 3,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 3
           }
         },
         {
@@ -378,13 +318,7 @@
                 "value": -2
               }
             ],
-            "refs": 1,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 1
           }
         }
       ]
@@ -430,13 +364,7 @@
                 ]
               }
             ],
-            "refs": 3,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 3
           }
         },
         {
@@ -452,13 +380,7 @@
                 "value": -2
               }
             ],
-            "refs": 1,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 1
           }
         }
       ]

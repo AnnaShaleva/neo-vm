@@ -13,13 +13,7 @@
             "stepInto"
           ],
           "result": {
-            "state": "FAULT",
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "state": "FAULT"
           }
         }
       ]
@@ -61,13 +55,7 @@
                 ]
               }
             ],
-            "refs": 3,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 3
           }
         },
         {
@@ -75,13 +63,7 @@
             "stepInto"
           ],
           "result": {
-            "state": "FAULT",
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "state": "FAULT"
           }
         }
       ]
@@ -126,13 +108,7 @@
                 ]
               }
             ],
-            "refs": 3,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 3
           }
         },
         {
@@ -147,13 +123,7 @@
                 "value": true
               }
             ],
-            "refs": 1,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 1
           }
         }
       ]
@@ -179,13 +149,7 @@
                 "value": true
               }
             ],
-            "refs": 1,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 1
           }
         }
       ]
@@ -256,13 +220,7 @@
                 ]
               }
             ],
-            "refs": 5,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 5
           }
         },
         {
@@ -296,10 +254,7 @@
             ],
             "refs": 4,
             "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 1,
-              "nClonedItems": 0
+              "refsDelta": 1
             }
           }
         },
@@ -315,13 +270,7 @@
                 "value": true
               }
             ],
-            "refs": 1,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 1
           }
         }
       ]
@@ -341,13 +290,7 @@
             "execute"
           ],
           "result": {
-            "state": "FAULT",
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "state": "FAULT"
           }
         }
       ]
@@ -367,13 +310,7 @@
             "execute"
           ],
           "result": {
-            "state": "FAULT",
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "state": "FAULT"
           }
         }
       ]
@@ -419,8 +356,7 @@
             "runStats": {
               "type": "byteString",
               "length": 65,
-              "refsDelta": 2,
-              "nClonedItems": 0
+              "refsDelta": 2
             }
           }
         },
@@ -445,13 +381,7 @@
                   }
                 ]
               }
-            ],
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            ]
           }
         }
       ]

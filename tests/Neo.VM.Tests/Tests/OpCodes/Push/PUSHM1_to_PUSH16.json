@@ -129,13 +129,7 @@
                 ]
               }
             ],
-            "refs": 18,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 18
           }
         },
         {
@@ -218,13 +212,7 @@
                 "value": -1
               }
             ],
-            "refs": 18,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 18
           }
         }
       ]

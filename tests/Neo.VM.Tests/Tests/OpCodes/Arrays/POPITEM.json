@@ -59,13 +59,7 @@
                 ]
               }
             ],
-            "refs": 4,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 4
           }
         },
         {
@@ -97,10 +91,7 @@
             ],
             "refs": 3,
             "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 1,
-              "nClonedItems": 0
+              "refsDelta": 1
             }
           }
         },
@@ -129,10 +120,7 @@
             ],
             "refs": 2,
             "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 1,
-              "nClonedItems": 0
+              "refsDelta": 1
             }
           }
         },
@@ -141,13 +129,7 @@
             "execute"
           ],
           "result": {
-            "state": "HALT",
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "state": "HALT"
           }
         }
       ]

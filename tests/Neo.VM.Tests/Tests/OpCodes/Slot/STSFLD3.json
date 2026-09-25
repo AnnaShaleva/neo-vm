@@ -13,13 +13,7 @@
             "Execute"
           ],
           "result": {
-            "state": "FAULT",
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "state": "FAULT"
           }
         }
       ]
@@ -37,13 +31,7 @@
             "Execute"
           ],
           "result": {
-            "state": "FAULT",
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "state": "FAULT"
           }
         }
       ]
@@ -88,10 +76,7 @@
             ],
             "refs": 4,
             "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 1,
-              "nClonedItems": 0
+              "refsDelta": 1
             }
           }
         },
@@ -101,13 +86,7 @@
           ],
           "result": {
             "state": "HALT",
-            "refs": 0,
-            "runStats": {
-              "type": "any",
-              "length": 0,
-              "refsDelta": 0,
-              "nClonedItems": 0
-            }
+            "refs": 0
           }
         }
       ]
