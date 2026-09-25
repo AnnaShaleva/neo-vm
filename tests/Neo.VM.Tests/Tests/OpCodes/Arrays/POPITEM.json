@@ -59,7 +59,13 @@
                 ]
               }
             ],
-            "refs": 4
+            "refs": 4,
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         },
         {
@@ -89,7 +95,13 @@
                 ]
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 1,
+              "nClonedItems": 0
+            }
           }
         },
         {
@@ -115,7 +127,13 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 1,
+              "nClonedItems": 0
+            }
           }
         },
         {
@@ -123,7 +141,13 @@
             "execute"
           ],
           "result": {
-            "state": "HALT"
+            "state": "HALT",
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]

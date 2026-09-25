@@ -13,7 +13,13 @@
             "Execute"
           ],
           "result": {
-            "state": "FAULT"
+            "state": "FAULT",
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]
@@ -32,7 +38,13 @@
             "Execute"
           ],
           "result": {
-            "state": "FAULT"
+            "state": "FAULT",
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]
@@ -64,7 +76,13 @@
                 "value": 1
               }
             ],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]

@@ -38,7 +38,13 @@
             "execute"
           ],
           "result": {
-            "state": "FAULT"
+            "state": "FAULT",
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]
@@ -58,7 +64,13 @@
             "stepInto"
           ],
           "result": {
-            "state": "FAULT"
+            "state": "FAULT",
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]
@@ -78,7 +90,13 @@
             "stepInto"
           ],
           "result": {
-            "state": "FAULT"
+            "state": "FAULT",
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]
@@ -94,7 +112,13 @@
             "stepInto"
           ],
           "result": {
-            "state": "FAULT"
+            "state": "FAULT",
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]
@@ -131,7 +155,13 @@
                 ]
               }
             ],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "type": "any",
+              "length": 3,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         },
         {
@@ -146,7 +176,13 @@
                 "value": "0x010203"
               }
             ],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]
@@ -184,7 +220,13 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         },
         {
@@ -199,7 +241,13 @@
                 "value": ""
               }
             ],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]
@@ -235,7 +283,13 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         },
         {
@@ -250,7 +304,13 @@
                 "value": "0x01"
               }
             ],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]
@@ -286,7 +346,13 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         },
         {
@@ -301,7 +367,13 @@
                 "value": "0x01"
               }
             ],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]
@@ -349,7 +421,13 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "type": "byteString",
+              "length": 1,
+              "refsDelta": 2,
+              "nClonedItems": 0
+            }
           }
         },
         {
@@ -374,7 +452,13 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "type": "any",
+              "length": 2,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         },
         {
@@ -410,7 +494,13 @@
                 ]
               }
             ],
-            "refs": 4
+            "refs": 4,
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         },
         {
@@ -441,7 +531,13 @@
                 ]
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "type": "any",
+              "length": 2,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]

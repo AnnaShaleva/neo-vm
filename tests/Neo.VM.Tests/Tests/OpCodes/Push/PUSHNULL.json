@@ -25,7 +25,13 @@
                 ]
               }
             ],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         },
         {
@@ -39,7 +45,13 @@
                 "type": "null"
               }
             ],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]

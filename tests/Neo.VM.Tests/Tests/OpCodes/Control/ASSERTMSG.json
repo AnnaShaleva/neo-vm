@@ -18,7 +18,13 @@
           ],
           "result": {
             "state": "FAULT",
-            "exceptionMessage": "ASSERTMSG is executed with false result. Reason: FAIL"
+            "exceptionMessage": "ASSERTMSG is executed with false result. Reason: FAIL",
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]
@@ -39,7 +45,13 @@
           ],
           "result": {
             "state": "HALT",
-            "refs": 0
+            "refs": 0,
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]

@@ -28,7 +28,13 @@
                 ]
               }
             ],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         },
         {
@@ -36,7 +42,13 @@
             "stepInto"
           ],
           "result": {
-            "state": "FAULT"
+            "state": "FAULT",
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]
@@ -66,7 +78,13 @@
                 ]
               }
             ],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         },
         {
@@ -74,7 +92,13 @@
             "stepInto"
           ],
           "result": {
-            "state": "FAULT"
+            "state": "FAULT",
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]
@@ -106,7 +130,13 @@
                 ]
               }
             ],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         },
         {
@@ -114,7 +144,13 @@
             "stepInto"
           ],
           "result": {
-            "state": "FAULT"
+            "state": "FAULT",
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]
@@ -130,7 +166,13 @@
             "stepInto"
           ],
           "result": {
-            "state": "FAULT"
+            "state": "FAULT",
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]
@@ -154,7 +196,13 @@
                 "value": "0x00000000000000000000"
               }
             ],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]

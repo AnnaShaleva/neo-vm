@@ -13,7 +13,13 @@
             "stepInto"
           ],
           "result": {
-            "state": "FAULT"
+            "state": "FAULT",
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]

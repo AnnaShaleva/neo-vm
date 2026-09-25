@@ -51,7 +51,13 @@
                 "value": -1
               }
             ],
-            "refs": 6
+            "refs": 6,
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]

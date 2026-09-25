@@ -15,7 +15,13 @@
             "stepInto"
           ],
           "result": {
-            "state": "FAULT"
+            "state": "FAULT",
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]
@@ -31,7 +37,13 @@
             "stepInto"
           ],
           "result": {
-            "state": "FAULT"
+            "state": "FAULT",
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]
@@ -76,7 +88,13 @@
                 ]
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "type": "any",
+              "length": 2,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         },
         {
@@ -105,7 +123,13 @@
                 ]
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "type": "any",
+              "length": 2,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         },
         {
@@ -128,7 +152,13 @@
                 "value": 5
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]
@@ -163,7 +193,13 @@
                 "value": 5
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "type": "any",
+              "length": 0,
+              "refsDelta": 0,
+              "nClonedItems": 0
+            }
           }
         }
       ]
