@@ -30,6 +30,23 @@ public class TestEngine : ExecutionEngine
     {
         var jumpTable = new JumpTable();
         jumpTable[OpCode.SYSCALL] = OnSysCall;
+        for (var value = 0; value < byte.MaxValue; value++)
+        {
+            var opCode = (OpCode)value;
+            var action = jumpTable[opCode];
+            jumpTable[opCode] = (engine, instruction, ref RunStats runStats) =>
+            {
+                try
+                {
+                    action(engine, instruction, ref runStats);
+                }
+                finally
+                {
+                    if (engine is TestEngine testEngine)
+                        testEngine.LastRunStats = runStats;
+                }
+            };
+        }
         return jumpTable;
     }
 
@@ -56,11 +73,5 @@ public class TestEngine : ExecutionEngine
     {
         FaultException = ex;
         base.OnFault(ex);
-    }
-
-    protected override void PostExecuteInstruction(Instruction? instruction, RunStats runStats)
-    {
-        LastRunStats = runStats;
-        base.PostExecuteInstruction(instruction, runStats);
     }
 }
