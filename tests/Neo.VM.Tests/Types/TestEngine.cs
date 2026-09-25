@@ -18,6 +18,7 @@ namespace Neo.Test.Types;
 public class TestEngine : ExecutionEngine
 {
     public Exception FaultException { get; private set; }
+    public RunStats LastRunStats { get; private set; }
 
     public TestEngine() : base(ComposeJumpTable()) { }
 
@@ -53,5 +54,11 @@ public class TestEngine : ExecutionEngine
     {
         FaultException = ex;
         base.OnFault(ex);
+    }
+
+    protected override void PostExecuteInstruction(Instruction? instruction, RunStats runStats)
+    {
+        LastRunStats = runStats;
+        base.PostExecuteInstruction(instruction, runStats);
     }
 }

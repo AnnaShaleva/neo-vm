@@ -94,6 +94,20 @@ public abstract class VMJsonTestBase
             AssertResult(expected.ResultStack, actual.ResultStack, message + " [Result stack]");
         if (expected.Refs != null)
             AssertAreEqual(expected.Refs, actual.ReferenceCounter.Count, message + " Reference counter value mismatch");
+        if (expected.RunStats != null)
+            AssertResult(expected.RunStats, actual.LastRunStats, message + " [RunStats]");
+    }
+
+    private static void AssertResult(VMUTRunStats expected, RunStats actual, string message)
+    {
+        if (expected.Type != null)
+            AssertAreEqual(expected.Type.Value, actual.Type, message + " Type mismatch");
+        if (expected.Length != null)
+            AssertAreEqual(expected.Length, actual.Length, message + " Length mismatch");
+        if (expected.RefsDelta != null)
+            AssertAreEqual(expected.RefsDelta, actual.RefsDelta, message + " RefsDelta mismatch");
+        if (expected.NClonedItems != null)
+            AssertAreEqual(expected.NClonedItems, actual.NClonedItems, message + " NClonedItems mismatch");
     }
 
     /// <summary>
