@@ -34,7 +34,7 @@ public class TestEngine : ExecutionEngine
         {
             var opCode = (OpCode)value;
             var action = jumpTable[opCode];
-            jumpTable[opCode] = (engine, instruction, ref RunStats runStats) =>
+            jumpTable[opCode] = (ExecutionEngine engine, Instruction instruction, ref RunStats runStats) =>
             {
                 try
                 {
