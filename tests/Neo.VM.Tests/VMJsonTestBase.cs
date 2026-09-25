@@ -95,7 +95,10 @@ public abstract class VMJsonTestBase
         if (expected.Refs != null)
             AssertAreEqual(expected.Refs, actual.ReferenceCounter.Count, message + " Reference counter value mismatch");
         if (expected.RunStats != null)
-            AssertResult(expected.RunStats, actual.LastRunStats, message + " [RunStats]");
+        {
+            Assert.IsTrue(actual.LastRunStats.HasValue, message + " [RunStats] No instruction has executed yet");
+            AssertResult(expected.RunStats, actual.LastRunStats.Value, message + " [RunStats]");
+        }
     }
 
     private static void AssertResult(VMUTRunStats expected, RunStats actual, string message)
