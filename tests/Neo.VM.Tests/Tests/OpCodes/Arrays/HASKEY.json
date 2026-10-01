@@ -252,7 +252,10 @@
                 ]
               }
             ],
-            "refs": 4
+            "refs": 4,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         },
         {
@@ -349,7 +352,12 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "type": "byteString",
+              "length": 65,
+              "refsDelta": 2
+            }
           }
         },
         {

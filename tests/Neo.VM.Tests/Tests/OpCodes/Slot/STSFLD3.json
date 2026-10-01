@@ -74,7 +74,10 @@
                 ]
               }
             ],
-            "refs": 4
+            "refs": 4,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         },
         {

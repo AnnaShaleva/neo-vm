@@ -48,7 +48,10 @@
                 ]
               }
             ],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "refsDelta": 2
+            }
           }
         },
         {

@@ -89,7 +89,10 @@
                 ]
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         },
         {
@@ -115,7 +118,10 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         },
         {

@@ -58,7 +58,10 @@
                 "nextInstruction": "RET"
               }
             ],
-            "refs": 0
+            "refs": 0,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         },
         {

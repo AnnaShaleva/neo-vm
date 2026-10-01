@@ -693,7 +693,10 @@
                 ]
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "length": 1
+            }
           }
         },
         {
@@ -1367,7 +1370,12 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "type": "byteString",
+              "length": 1,
+              "refsDelta": 2
+            }
           }
         },
         {
@@ -1426,7 +1434,12 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "type": "byteString",
+              "length": 1,
+              "refsDelta": 2
+            }
           }
         },
         {

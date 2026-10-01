@@ -79,7 +79,12 @@
                 ]
               }
             ],
-            "refs": 3
+            "refs": 3,
+            "runStats": {
+              "type": "array",
+              "length": 2,
+              "refsDelta": 1
+            }
           }
         },
         {

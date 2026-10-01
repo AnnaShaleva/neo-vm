@@ -32,7 +32,10 @@
                 "nextInstruction": "PUSH1"
               }
             ],
-            "refs": 0
+            "refs": 0,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         },
         {

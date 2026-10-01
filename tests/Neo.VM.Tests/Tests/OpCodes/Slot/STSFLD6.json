@@ -83,7 +83,10 @@
                 ]
               }
             ],
-            "refs": 7
+            "refs": 7,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         },
         {

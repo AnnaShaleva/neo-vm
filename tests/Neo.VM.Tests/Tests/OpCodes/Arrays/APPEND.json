@@ -88,7 +88,10 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         },
         {
@@ -165,7 +168,10 @@
                 ]
               }
             ],
-            "refs": 4
+            "refs": 4,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -329,7 +335,10 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "refsDelta": 1
+            }
           }
         },
         {
@@ -406,7 +415,11 @@
                 ]
               }
             ],
-            "refs": 5
+            "refs": 5,
+            "runStats": {
+              "refsDelta": 4,
+              "nClonedItems": 2
+            }
           }
         },
         {
@@ -576,7 +589,10 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -666,7 +682,10 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "refsDelta": 3
+            }
           }
         },
         {

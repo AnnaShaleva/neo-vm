@@ -172,7 +172,12 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "type": "array",
+              "length": 1,
+              "refsDelta": 3
+            }
           }
         },
         {
@@ -281,7 +286,11 @@
                 ]
               }
             ],
-            "refs": 1
+            "refs": 1,
+            "runStats": {
+              "type": "struct",
+              "refsDelta": 3
+            }
           }
         },
         {

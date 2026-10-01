@@ -822,7 +822,12 @@
                 ]
               }
             ],
-            "refs": 2
+            "refs": 2,
+            "runStats": {
+              "type": "byteString",
+              "length": 1,
+              "refsDelta": 2
+            }
           }
         },
         {
